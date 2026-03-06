@@ -1,0 +1,39 @@
+Andrea Gjoreska (num étudiant 22310619), groupe TP 4A
+
+Le dossier src/ contient les sources Java, le dossier lib/ est destiné à recevoir les librairies externes, le dossier build/ à recevoir les fichiers compilés, et le dossier doc/ à recevoir la javadoc générée.
+
+Les classes exécutables sont :
+
+- games.nim.Executable : permet de jouer une partie de Nim à 2 joueurs humains, au clavier ;
+
+- games.nim.Test : lance les tests unitaires sur la classe Nim ;
+
+- games.tictactoe.Executable : permet de jouer au jeu du Morpion à 2 joueurs humains, au clavier;
+
+- games.tictactoe.Test : lance les tests unitaires sur la classe TicTacToe ;
+
+- games.tictactoe.ExecutableWithHints : permet de jouer au jeu du Morpion avec avec ou sans des indices (selon le souhait du joueur) ;
+
+- games.tictactoe.TestWithHints : lance les tests unitaires sur la classe TicTacToeWithHints ;
+
+- games.factoredgames.AbstractGameTest : lance les tests unitaires sur la classe AbstractGame ;
+
+- games.factoredgames.ExecutableNim : permet de jouer une partie de Nim à 2 joueurs humains, au clavier ;
+
+- games.factoredgames.ExecutableTicTacToe : permet de jouer au jeu du Morpion ;
+
+- games.factoredgames.JeuxTest: lance les tests unitaires sur les classes Nim et TicTacToe dans le package games.factoredgames ;
+
+- games.genericgames.Test: lance les tests unitaires sur les classes du package games.genericgames ;
+
+- games.players.Test: lance les tests unitaires sur les classes Human et RandomPlayer ;
+
+- games.players.TestNegamax: lance les tests unitaires sur la classe NegamaxPlayer ;
+
+- games.players.TestNegamaxPlayerWithCache: lance les tests unitaires sur la classe NegamaxPlayerWithCache ;
+
+- games.plays.Test: lance les tests unitaires sur la classe Orchestrator ;
+
+- games.plays.Executable: permet de jouer au jeu de Nim ou Morpion avec les deux joueurs de leur choix, ayant 4 choix (Humain, Random, Negamax ou NegamaxWithCash) ;
+
+Une javadoc a été réalisée pour chacune des sources Java, a l'exception des tests.
